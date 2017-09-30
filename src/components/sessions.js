@@ -146,7 +146,7 @@ class Sessions extends Component {
                     }}
                   >
                     <ZoomableGroup center={[0, 20]} disablePanning>
-                      <Geographies disableOptimization={shouldRender} geographyUrl='http://localhost:4000/world-map'>
+                      <Geographies disableOptimization={shouldRender} geographyUrl='http://alduin.stouder.io:4000/world-map'>
                         {(geographies, projection) => geographies.map((geography, i) => geography.id !== 'ATA' && (
                           <Geography
                             key={i}
